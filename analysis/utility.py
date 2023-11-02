@@ -36,7 +36,7 @@ from sklearn.feature_selection import SelectFromModel
 from sklearn.linear_model import LinearRegression
 from sklearn.feature_selection import SelectKBest
 
-df = pd.read_csv(r'/home/me/work/epsilon_project/data/data.csv', na_values=[0,' ','','--', 'nan','Unknown'])
+df = pd.read_csv(r'../data/data.csv', na_values=[0,' ','','--', 'nan','Unknown'])
 
 
 
