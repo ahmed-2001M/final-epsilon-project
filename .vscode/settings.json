@@ -1,0 +1,15 @@
+{
+    "python.analysis.extraPaths": [
+        "./scraping",
+        "./database",
+        "./assets",
+        "./analysis",
+        "./deployment",
+        "./data",
+        "./jobs_recomender"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "none"
+}
