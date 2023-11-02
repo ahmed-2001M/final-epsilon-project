@@ -1,6 +1,7 @@
 
 import sys
 sys.path.append('./data')
+sys.path.append('./assets')
 
 
 
@@ -118,7 +119,7 @@ print('&'*100)
 print(X_train.columns)
 
 
-with open('/home/me/work/epsilon_project/assets/skills.pkl', 'rb') as file:
+with open('./assets/skills.pkl', 'rb') as file:
     skills = pickle.load(file)
 skills = list(skills)
 
