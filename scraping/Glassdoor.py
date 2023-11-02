@@ -51,8 +51,7 @@ class GLASSDOOR(DRIVER):
         self.job_description_xpath = ".//div[@class='JobDetails_jobDescriptionWrapper__BTDTA']"
         self.show_more_job_descritpion_button_xpath = "//div[@class='JobDetails_showMoreWrapper__I6uBt']/button"
         self.show_more_button_xpath = "//div[@class='JobsList_buttonWrapper__haBp5']/button"
-        # self.connection = PostgreSQLConnection(host='172.17.0.2',database='work',user='postgres',password='123')
-        # self.connection.connect()
+
     
 
     def clossse_popup(self):
