@@ -1,5 +1,9 @@
 # this is job recommender and job salary predictor project
 
+### project demo
+https://drive.google.com/file/d/1QFruj7afQMc6RC-DM_Z6H-uLqrlTgi06/view?usp=drive_link
+
+
 ### About Data
 - Scraped Featers from glassdoor Site:
 
