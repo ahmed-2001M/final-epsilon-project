@@ -1,0 +1,151 @@
+1700529018681	geckodriver	INFO	Listening on 127.0.0.1:49125
+1700529018758	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "50329" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegwitke"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529019403	Marionette	INFO	Marionette enabled
+1700529019511	Marionette	INFO	Listening on port 45853
+WebDriver BiDi listening on ws://127.0.0.1:50329
+Read port: 45853
+1700529019728	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50329/devtools/browser/7ccb0bbd-bc0f-416f-867f-817b77d3e774
+1700529024443	Marionette	INFO	Stopped listening on port 45853
+1700529132850	geckodriver	INFO	Listening on 127.0.0.1:57013
+1700529132906	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile40Tdck"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529133361	Marionette	INFO	Marionette enabled
+1700529133442	Marionette	INFO	Listening on port 41505
+WebDriver BiDi listening on ws://127.0.0.1:45543
+Read port: 41505
+1700529133608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45543/devtools/browser/71956f48-9269-4579-869c-058fc6d67312
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1700529136927	Marionette	INFO	Stopped listening on port 41505
+1700529137920	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1700529163280	geckodriver	INFO	Listening on 127.0.0.1:33343
+1700529163847	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "40119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXi0UBr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529164301	Marionette	INFO	Marionette enabled
+1700529164382	Marionette	INFO	Listening on port 42497
+WebDriver BiDi listening on ws://127.0.0.1:40119
+Read port: 42497
+1700529164545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:40119/devtools/browser/6988ffd5-7ff4-47c3-9301-b72ab0463f0e
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1700529167700	Marionette	INFO	Stopped listening on port 42497
+1700529168687	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1700529208552	geckodriver	INFO	Listening on 127.0.0.1:51657
+1700529209117	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "41381" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileA805RR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529209580	Marionette	INFO	Marionette enabled
+1700529209660	Marionette	INFO	Listening on port 40891
+WebDriver BiDi listening on ws://127.0.0.1:41381
+Read port: 40891
+1700529209822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:41381/devtools/browser/2e3add65-ea7a-4b4e-bff6-ba8c5ff1bb98
+1700529211751	Marionette	INFO	Stopped listening on port 40891
+1700529211807	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1700529346175	geckodriver	INFO	Listening on 127.0.0.1:60361
+1700529346738	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45391" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilennlfzf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529347183	Marionette	INFO	Marionette enabled
+1700529347266	Marionette	INFO	Listening on port 37951
+WebDriver BiDi listening on ws://127.0.0.1:45391
+Read port: 37951
+1700529347424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45391/devtools/browser/1433d8a0-d2c9-490e-989c-fdeef62dd4fe
+1700529349729	Marionette	INFO	Stopped listening on port 37951
+1700529372477	geckodriver	INFO	Listening on 127.0.0.1:57571
+1700529372538	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "52493" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYWbdGR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529373007	Marionette	INFO	Marionette enabled
+1700529373093	Marionette	INFO	Listening on port 39241
+WebDriver BiDi listening on ws://127.0.0.1:52493
+Read port: 39241
+1700529373251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52493/devtools/browser/18eab266-0fe8-4f9a-8394-a0552466aa26
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://wuzzuf.net."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/GOa2ZK97xVqw-WOSDw2lqG4V8l_qTiI5JNj0tnI6N88.js line 2 > eval line 5237 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1700529403053	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://gum.criteo.com/syncframe?topUrl=wuzzuf.net&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22wuzzuf.net%22,%22topUrl%22:%22wuzzuf.net%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}, line 14: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?topUrl=wuzzuf.net&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22wuzzuf.net%22,%22topUrl%22:%22wuzzuf.net%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3137
+r/<@https://gum.criteo.com/syncframe?topUrl=wuzzuf.net&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22wuzzuf.net%22,%22topUrl%22:%22wuzzuf.net%22,%22version%22:%225_20_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true,%22pm%22:0}:14:3642
+
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js, line 1: Script terminated by timeout at:
+t@https://static.cloudflareinsights.com/beacon.min.js:1:11747
+
+1700529424687	Marionette	INFO	Stopped listening on port 39241
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1700529429042	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1700529480824	geckodriver	INFO	Listening on 127.0.0.1:54701
+1700529481390	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevqL37A"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529481832	Marionette	INFO	Marionette enabled
+1700529481917	Marionette	INFO	Listening on port 38381
+WebDriver BiDi listening on ws://127.0.0.1:45653
+Read port: 38381
+1700529482078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45653/devtools/browser/df625cf7-16b5-4abe-a126-572ae5b54df3
+1700529484057	Marionette	INFO	Stopped listening on port 38381
+1700529552028	geckodriver	INFO	Listening on 127.0.0.1:60061
+1700529552079	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "33251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegySN7n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529552541	Marionette	INFO	Marionette enabled
+1700529552621	Marionette	INFO	Listening on port 33563
+WebDriver BiDi listening on ws://127.0.0.1:33251
+Read port: 33563
+1700529552780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:33251/devtools/browser/f390e2d2-7480-4000-a47d-84b1682d03be
+1700529555146	Marionette	INFO	Stopped listening on port 33563
+1700529556141	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1700529914207	geckodriver	INFO	Listening on 127.0.0.1:44459
+1700529914770	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53537" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKrL9q8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700529915238	Marionette	INFO	Marionette enabled
+1700529915321	Marionette	INFO	Listening on port 42035
+WebDriver BiDi listening on ws://127.0.0.1:53537
+Read port: 42035
+1700529915483	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53537/devtools/browser/f7862e88-44ee-40a6-8e40-1877d726d2c5
+1700529918224	Marionette	INFO	Stopped listening on port 42035
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1700529919222	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1700530077016	geckodriver	INFO	Listening on 127.0.0.1:45637
+1700530077069	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "39655" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFhrpIU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700530077546	Marionette	INFO	Marionette enabled
+1700530077635	Marionette	INFO	Listening on port 41143
+WebDriver BiDi listening on ws://127.0.0.1:39655
+Read port: 41143
+1700530077789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:39655/devtools/browser/3fa27e4f-c9ab-4594-a58f-e79be8a05df1
+1700530080382	Marionette	INFO	Stopped listening on port 41143
+1700530081380	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)

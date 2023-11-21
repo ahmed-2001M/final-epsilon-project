@@ -15,7 +15,12 @@ from DB import PostgreSQLConnection
 
 class CVMATCHER:
     def __init__(self):
-        self.file_path = r'../assets/skills.pkl'
+        current_path = os.getcwd()
+        self.file_path = os.path.abspath(os.path.join(current_path,'assets', 'skills.pkl'))
+        print('how'*100)
+        print(self.file_path)
+        print('how'*100)
+        # self.file_path = r'/assets/skills.pkl'
         self.skills = self.get_skills()
         self.skills_pattern = self.skills_pattern_creator(self.skills)
         
