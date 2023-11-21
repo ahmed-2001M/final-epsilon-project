@@ -10,3 +10,18 @@ Read port: 36617
 console.error: ({})
 DevTools listening on ws://127.0.0.1:59861/devtools/browser/86d2869e-0810-425f-b153-35c965ff1a6f
 1700528129409	Marionette	INFO	Stopped listening on port 36617
+1700528311793	geckodriver	INFO	Listening on 127.0.0.1:56825
+1700528311871	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "58013" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilesBRLCv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700528312375	Marionette	INFO	Marionette enabled
+1700528312480	Marionette	INFO	Listening on port 34881
+WebDriver BiDi listening on ws://127.0.0.1:58013
+Read port: 34881
+1700528312672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58013/devtools/browser/55ffaae3-a45d-487e-8d2c-c8009da607de
+1700528314888	Marionette	INFO	Stopped listening on port 34881
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+1700528315068	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
