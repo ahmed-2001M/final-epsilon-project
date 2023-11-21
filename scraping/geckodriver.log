@@ -25,3 +25,19 @@ DevTools listening on ws://127.0.0.1:58013/devtools/browser/55ffaae3-a45d-487e-8
 console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
 1700528315068	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
 [ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1700528795365	geckodriver	INFO	Listening on 127.0.0.1:49521
+1700528795453	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51243" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejoDqTj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700528795972	Marionette	INFO	Marionette enabled
+1700528796067	Marionette	INFO	Listening on port 33249
+WebDriver BiDi listening on ws://127.0.0.1:51243
+Read port: 33249
+1700528796253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51243/devtools/browser/b9b95419-9e4c-4600-ac35-c59888bd103a
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:69164
+
+1700528800815	Marionette	INFO	Stopped listening on port 33249
