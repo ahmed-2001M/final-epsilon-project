@@ -5,38 +5,26 @@ from selenium.webdriver.support import expected_conditions as EC
 import hashlib
 import random
 
+from selenium.webdriver import Firefox, FirefoxOptions
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.support.wait import WebDriverWait
+
 class DRIVER:
     _instance = None
-
-    def __new__(cls): ## apply singleton pattern
+    
+    def __new__(cls):
         if cls._instance is None:
             cls._instance = super().__new__(cls)
-            options = webdriver.FirefoxOptions()
+            options = Options()
             options.page_load_strategy = 'eager'
-            options.headless = False  
-            cls.driver = cls.create_firefox_driver_with_proxy(options)
+            cls.driver = Firefox(options=options)
             
         return cls._instance
-
-    @staticmethod
-    def create_firefox_driver_with_proxy(options): 
-        proxy_list = [
-            "47.88.62.42:80"
-        ]
-
-        proxy_server = random.choice(proxy_list)
-        print(proxy_server)
-        print('_'*50)
-
-        proxy = webdriver.Proxy()
-        proxy.http_proxy = proxy_server
-
-        options.proxy = proxy
-
-        driver = webdriver.Firefox(options=options)
-
-        return driver
-
 
 
     def landFirstPage(self, URL):
